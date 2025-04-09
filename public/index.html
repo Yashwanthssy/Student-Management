@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Management</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+    input, button { margin: 5px 0; padding: 6px 10px; width: 100%; }
+    .student { background: #f2f2f2; padding: 10px; margin: 10px 0; border-radius: 8px; }
+    .student button { margin-left: 10px; }
+  </style>
+</head>
+<body>
+  <h1>🎓 Student Management System</h1>
+
+  <div>
+    <input id="name" placeholder="Name">
+    <input id="age" type="number" placeholder="Age">
+    <input id="course" placeholder="Course">
+    <button id="submitBtn" onclick="addStudent()">Add Student</button>
+  </div>
+
+  <h2>📋 All Students</h2>
+  <div id="studentList"></div>
+
+  <!-- <script>
+    
+  </script> -->
+</body>
+<script src ="./script.js"></script>
+</html>
